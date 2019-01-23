@@ -13,6 +13,7 @@ Running instructions:
     2. Simply run this file on either the command line ("python stringcalc.py") or some other program
 """
 
+
 def add(numbers):
     """
     Takes in an input string, parsing and searching for delimiters
@@ -104,5 +105,6 @@ def runtests(filename):
             print("Exception caught on %d" % int(ve.args[0]))
 
 
+# Program entry point
 runtests("teststrings.txt")
 
